@@ -1,0 +1,172 @@
+{
+  "id": "78c02064-869e-42a3-b995-52dfef50c4bb",
+  "version": "2.0",
+  "name": "Final ",
+  "url": "https://qasvus.wixsite.com/ca-marketing",
+  "tests": [{
+    "id": "099569d2-269f-4a66-80ca-3b178e8bfd53",
+    "name": "Untitled",
+    "commands": []
+  }, {
+    "id": "eda2ac55-1d7b-4971-acc5-63b695a9e54c",
+    "name": "REQ 6-10",
+    "commands": [{
+      "id": "4be8fa0f-87b4-4302-ad61-e0b60bff7ae1",
+      "comment": "",
+      "command": "open",
+      "target": "https://qasvus.wixsite.com/ca-marketing",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "12a16c17-52b7-4f2b-9574-ecb077c01d68",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "855x746",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0a402c56-26f7-41ef-b9de-d348bae62b31",
+      "comment": "",
+      "command": "click",
+      "target": "id=comp-kcu4j5tk2label",
+      "targets": [
+        ["id=comp-kcu4j5tk2label", "id"],
+        ["css=#comp-kcu4j5tk2label", "css:finder"],
+        ["xpath=//p[@id='comp-kcu4j5tk2label']", "xpath:attributes"],
+        ["xpath=//li[@id='comp-kcu4j5tk2']/a/div/div/p", "xpath:idRelative"],
+        ["xpath=//li[3]/a/div/div/p", "xpath:position"],
+        ["xpath=//p[contains(.,'Shop')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "48dde22c-6695-4491-918d-f2e591aa1586",
+      "comment": "",
+      "command": "click",
+      "target": "css=#img_comp-kg0g93we2 > img",
+      "targets": [
+        ["css=#img_comp-kg0g93we2 > img", "css:finder"],
+        ["xpath=//img[@alt='iot_sq.png']", "xpath:img"],
+        ["xpath=//wix-image[@id='img_comp-kg0g93we2']/img", "xpath:idRelative"],
+        ["xpath=//div/a/wix-image/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1ce36152-7406-4b08-86a5-1a608ef854f1",
+      "comment": "",
+      "command": "click",
+      "target": "css=#img_5_comp-kcu4j5433 > img",
+      "targets": [
+        ["css=#img_5_comp-kcu4j5433 > img", "css:finder"],
+        ["xpath=//img[@alt='LinkedIn']", "xpath:img"],
+        ["xpath=//wix-image[@id='img_5_comp-kcu4j5433']/img", "xpath:idRelative"],
+        ["xpath=//li[6]/a/wix-image/img", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win538",
+      "windowTimeout": 2000
+    }, {
+      "id": "56ebfa8d-1013-40be-ad01-706f6954db6b",
+      "comment": "",
+      "command": "storeWindowHandle",
+      "target": "root",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "79fc7d68-db82-48a2-9f7f-20ff5ec939d4",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win538}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4036c2d1-1360-4740-8372-34be05db7c8a",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0aed0b11-8c24-4170-9401-43e69449a71b",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3d0795b0-fbe9-498d-ae6f-b3074cb9999f",
+      "comment": "",
+      "command": "click",
+      "target": "css=#img_3_comp-kcu4j5433 > img",
+      "targets": [
+        ["css=#img_3_comp-kcu4j5433 > img", "css:finder"],
+        ["xpath=//img[@alt='YouTube']", "xpath:img"],
+        ["xpath=//wix-image[@id='img_3_comp-kcu4j5433']/img", "xpath:idRelative"],
+        ["xpath=//li[4]/a/wix-image/img", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win3572",
+      "windowTimeout": 2000
+    }, {
+      "id": "6903c3c7-6d66-4380-b9aa-34fc76a90335",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win3572}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "927c8cec-c10f-4347-a615-0c73a22f277a",
+      "comment": "",
+      "command": "//mouseOver",
+      "target": "id=search-icon-legacy",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e06d6354-437f-48c6-99d9-9c676548c13e",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a5d517b5-6e4b-4a2b-bd66-ab339dd9e731",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "96df8f4e-3032-4d4c-9fb1-7cbb33317cd1",
+      "comment": "",
+      "command": "click",
+      "target": "id=comp-kcu4j5tk1label",
+      "targets": [
+        ["id=comp-kcu4j5tk1label", "id"],
+        ["css=#comp-kcu4j5tk1label", "css:finder"],
+        ["xpath=//p[@id='comp-kcu4j5tk1label']", "xpath:attributes"],
+        ["xpath=//li[@id='comp-kcu4j5tk1']/a/div/div/p", "xpath:idRelative"],
+        ["xpath=//li[2]/a/div/div/p", "xpath:position"],
+        ["xpath=//p[contains(.,'Blog')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6eccf726-e49e-4fc5-9d2f-8f41d0828ea0",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "3838e00d-42b0-4696-94c3-0748597adc06",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["099569d2-269f-4a66-80ca-3b178e8bfd53"]
+  }],
+  "urls": ["https://qasvus.wixsite.com/ca-marketing"],
+  "plugins": []
+}
